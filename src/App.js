@@ -1,7 +1,7 @@
 import logo from './pain_logo.png';
 import './App.css';
 import Alpine from 'alpinejs'
-import { use, useEffect } from 'react';
+import { useEffect } from 'react';
 
 window.Alpine = Alpine
 
@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     Alpine.start()
-  }, [0])
+  }, [])
 
   return (
     <div className="App">
