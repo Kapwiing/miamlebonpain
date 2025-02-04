@@ -62,6 +62,10 @@ p {
     color: #050048;
 }
 
+.animate_after {
+    --animate-delay: 0.5s;
+}
+
 #order_button {
     background-color: #050048;
     color: white;
@@ -70,7 +74,7 @@ p {
     font-family: 'Times', sans-serif;
     padding: 0.5em 1.5em;
     border: none;
-    border-radius: 20px;
+    border-radius: 15px;
     cursor: pointer;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.3s ease;

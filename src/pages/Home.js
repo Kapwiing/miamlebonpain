@@ -1,5 +1,6 @@
 import logo from '../pain_logo.png';
 import '../style/Home.css';
+import 'animate.css';
 import Alpine from 'alpinejs'
 import { useState, useEffect } from 'react';
 
@@ -26,23 +27,29 @@ function Home() {
   return (
     <div className="Home">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <div>
+        <div className='animate__animated animate__fadeInDown animate__slow'>
+          <img src={logo} alt="logo"/>
           <h1>
-            L'excellence du pain Français, façonné à la main avec passion.
+            L'Excellence du pain Français, façonné à la main avec passion.
             <br/>
             ❤️ 🇫🇷🥖 ❤️
           </h1>
         </div>
         <div>
-          <h3>
+          <h3 className='animate__animated animate__fadeInDown animate__delay-2s animate__slow animate_after'>
             The excellence of French bread, handcrafted with passion.
             <br/>
             열정으로 빚어낸 프랑스 빵의 품격.
           </h3>
         </div>
-      <button id="order_button" onClick={() => window.location.href = '/order'}>{buttonText}</button>
-      <div id="about_link" onClick={() => window.location.href = '/about'}>
+      <button className='animate__animated animate__fadeInDown animate__delay-2s animate__slow animate_after'
+              id="order_button"
+              onClick={() => window.location.href = '/order'}>
+          {buttonText}
+      </button>
+      <div  id="about_link"
+            className='animate__animated animate__fadeInDown animate__delay-2s animate__slow animate_after'
+            onClick={() => window.location.href = '/about'}>
         About me
       </div>
       </header>
