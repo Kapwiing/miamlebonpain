@@ -41,16 +41,6 @@ function App() {
         </div>
       <button id="order_button">{buttonText}</button>
       </header>
-      <footer className='App-footer'>
-        <div id="about_us">
-          <h1>About me :</h1>
-          <p>
-            I'm a French student who loves to bake and share my passion for bread with the world.
-            I make simple but authentic French bread using baker yeast and the best quality ingredients possible.
-            I hope you enjoy my website and don't hesitate to place an order !
-          </p>
-        </div>
-      </footer>
     </div>
   );
 }
