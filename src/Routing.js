@@ -6,7 +6,7 @@ const Routing = () => {
         <Routes>
             {/* This endpoint will just return you to a dummy HTML with a simple heading tag */}
             <Route path='/health'>
-                <h3>Hey There!!! The App is Healthy</h3>
+                <h3>Le pain est en bonne santé.</h3>
             </Route>
 
             {/* All other routes will be defined here */}
