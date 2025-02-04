@@ -16,7 +16,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Kill yourself.
+          Le pain est en bonne santé.
         </p>
       </header>
     </div>
