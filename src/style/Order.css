@@ -52,3 +52,8 @@
 .Order button[type="submit"]:hover {
     background-color: #45a049;
 }
+
+.Order .language-selector {
+    cursor: pointer;
+    margin-left: 1.25em;
+}
